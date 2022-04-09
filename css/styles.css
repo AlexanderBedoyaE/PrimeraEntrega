@@ -150,9 +150,6 @@ a{
 @media screen and (max-width: 500px){
     
     body{
-        height: 100vh;
-        font-family: 'Poppins', sans-serif;
-        background-color: var(--fondo);
         overflow: scroll;
     }
     .login-container{
