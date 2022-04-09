@@ -149,6 +149,7 @@ a{
 @media screen and (max-width: 500px){
     .login-container{
         height: 90%;
+        margin: 0px;
     }
     .social-login{
         flex-direction: column;
@@ -156,6 +157,6 @@ a{
         height: 30%;
     }
     .login-info-container > p{
-        margin: 0;
+        margin: 10px;
     }
 }
