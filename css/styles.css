@@ -150,7 +150,7 @@ a{
 @media screen and (max-width: 500px){
     
     body{
-        height: 95vh;
+        height: 91vh;
         font-family: 'Poppins', sans-serif;
         background-color: var(--fondo);
         overflow: scroll;
