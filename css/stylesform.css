@@ -11,7 +11,7 @@ body{
     height: 100vh;
     font-family: 'Poppins', sans-serif;
     background-color: var(--fondo);
-    overflow: hidden;
+    overflow: scroll;
 }
 a{
     text-decoration: none;
@@ -129,7 +129,7 @@ a{
     font-weight: 600;
     cursor: pointer;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1300px) {
     .image-container{
         display: none;
     }
