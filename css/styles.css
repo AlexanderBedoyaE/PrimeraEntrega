@@ -148,7 +148,7 @@ a{
 @media screen and (max-width: 500px){
     .login-container{
         height: 90%;
-        margin: 0px;
+        justify-content: center;
     }
     .social-login{
         flex-direction: column;
