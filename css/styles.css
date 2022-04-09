@@ -11,7 +11,7 @@ body{
     height: 100vh;
     font-family: 'Poppins', sans-serif;
     background-color: var(--fondo);
-    overflow: scroll;
+    overflow: hidden;
 }
 a{
     text-decoration: none;
@@ -128,13 +128,12 @@ a{
     font-weight: 600;
     cursor: pointer;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
     .image-container{
         display: none;
     }
     .login-container {
         width: 70%;
-        margin-top: 3rem;
     }
     .login-info-container{
         width: 100%;
