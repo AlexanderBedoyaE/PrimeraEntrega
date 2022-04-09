@@ -151,6 +151,7 @@ a{
     .login-container{
         height: 90%;
         justify-content: center;
+        overflow: scroll;
     }
     .social-login{
         flex-direction: column;
