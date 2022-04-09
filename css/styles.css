@@ -1,3 +1,7 @@
+*{
+    margin:0px;
+    padding:0px;
+}
 :root{
     --fondo: #F1EBFF;
     --otros: #FAFAFF;
@@ -151,7 +155,7 @@ a{
     .login-container{
         height: 90%;
         justify-content: center;
-        overflow: scroll;
+        
     }
     .social-login{
         flex-direction: column;
