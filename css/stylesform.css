@@ -151,6 +151,7 @@ a{
 @media screen and (max-width: 500px){
     .login-container{
         height: 90%;
+        width: 90%;
         justify-content: center;
     }
     .social-login{
