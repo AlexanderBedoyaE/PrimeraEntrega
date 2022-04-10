@@ -149,11 +149,8 @@ a{
 }
 @media screen and (max-width: 500px){
     
-    body{
-        height: 90vh;
-    }
     .login-container{
-        height: 90%;
+        height: 90vh;
         justify-content: center;
         
     }
