@@ -38,8 +38,8 @@ a{
     border-radius: 5px;
 }
 .image-container{
-    padding: 2rem;
-    width: 100%;
+    width: 50vw;
+    height: 80vh;
     background-color: var(--fondo);
     box-sizing: border-box;
 }
