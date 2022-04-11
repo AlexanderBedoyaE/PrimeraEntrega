@@ -20,21 +20,22 @@
         <div class="login-info-container">
             <h1 class="title">Regístrate</h1>
             <form class="form-container">
-                <input class="input" type="text" placeholder="Nombre"><br>
-                <input class="input" type="text" placeholder="Apellido"><br>
+                <input class="input" type="text" name="nombre" required="" pattern="[a-zA-Z]+" minlength="3" maxlength="40" placeholder="Nombre"><br>
+                <input class="input" type="text" name="apellido" required="" pattern="[a-zA-Z]+" minlength="3" maxlength="40" placeholder="Apellido"><br>
 
                 <label class="sex">Seleccione su sexo: </label>
-                <select name="sex" class="typesex"><br>
-                    <option value="Seleccione" class="op">Seleccionar...</option>
-                    <option value="masculino">Masculino</option>
-                    <option value="femenino">Femenino</option>
-                    <option value="nodecirlo">Prefiero no decirlo</option>
+                <select name="sex" class="typesex" required="" ><br>
+                    <option value="">Seleccionar...</option>
+                    <option value="1">Masculino</option>
+                    <option value="2">Femenino</option>
+                    <option value="3">Prefiero no decirlo</option>
                 </select><br>
 
-                <input class="input" type="text" placeholder="Celular"><br>
-                <input class="input" type="text" placeholder="Dirección"><br>
-                <input class="input" type="email" placeholder="Correo electrónico"><br>
-                <input class="input" type="password" placeholder="Contraseña"><br>
+                <input class="input" type="text" name="celular" placeholder="Celular" minlength="10" required=""><br>
+                <input class="input" type="text" name="direccion" placeholder="Dirección" required=""><br>
+                <input class="input" type="email" name="email" placeholder="Correo electrónico" required=""><br>
+                <input class="input" type="password" name="password" placeholder="Contraseña" minlength="4" maxlength="8" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" 
+                title="Minimo 4 caracteres, una mayuscula y un numero. Maximo 8 caracteres" required=""><br>
 
                 <button class="btn">Regístrarse</button><br>
                 <p>Inicia sesión.<span class="span"><a href="./index.html"> Click aquí</a></span></p><br>

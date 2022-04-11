@@ -14,8 +14,11 @@
 <body>
     <!--Contenedor del login-->
     <div class="login-container">
-
-        <img class="image-container "src="img/Exciting news-amico.png" alt="news">
+        
+        <div class="img-container">
+            <img class="image-container" src="img/Exciting news-amico.png" alt="news">
+            <p> Bienvenido al periodico digital. Si desea ver las noticias, por favor, inicie sesión.</p>
+        </div>
 
         <div class="login-info-container">
             <h1 class="title">Iniciar sesión</h1>
@@ -33,8 +36,8 @@
             <p>- o -</p>
 
             <form class="form-container">
-                <input class="input" type="email" placeholder="Correo electrónico">
-                <input class="input" type="password" placeholder="Contraseña">
+                <input class="input" type="email" name="email" required="" placeholder="Correo electrónico">
+                <input class="input" type="password" name="password" required="" placeholder="Contraseña">
                 <p>¿Olvidó su contraseña? <span class="span">Click aquí</span></p>
                 <button class="btn">Iniciar sesión</button>
                 <p>No tengo cuenta.<span class="span"><a href="./registro.html"> Registrarse.</a></span></p>
