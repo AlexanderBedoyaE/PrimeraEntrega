@@ -28,7 +28,7 @@ a{
     justify-content: space-between;
 }
 .login-info-container{
-    width: 100%;
+    width: 52%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -38,8 +38,7 @@ a{
     border-radius: 5px;
 }
 .image-container{
-    width: 50vw;
-    height: 80vh;
+    width: 70vw;
     background-color: var(--fondo);
     box-sizing: border-box;
 }
@@ -150,7 +149,7 @@ a{
 }
 @media screen and (max-width: 500px){
     .login-container{
-        height: 90%;
+        height: 80%;
         width: 90%;
         justify-content: center;
     }
