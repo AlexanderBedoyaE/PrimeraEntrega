@@ -1,8 +1,8 @@
 :root{
-    --fondo: #F1EBFF;
+    --fondo: #F4F4F4;
     --otros: #FAFAFF;
     --letras: #30343F;
-    --btn: #005EB6;
+    --btn: #3B628D;
 }
 html{
     height: 100%;
@@ -40,14 +40,18 @@ a{
 }
 .img-container > img{
     width:50vw;
-    height: 70vh;
+    height: 88vh;
     background-color: var(--fondo);
 }
 .img-container > p{
     width: 50vw;
     text-align: center;
     align-items: center;
-    font-weight: 700;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: var(--letras);
+    margin: 0;
 }
 .title{
     font-size: 2.25rem;

@@ -1,8 +1,8 @@
 :root{
-    --fondo: #F1EBFF;
+    --fondo: #F4F4F4;
     --otros: #FAFAFF;
     --letras: #30343F;
-    --btn: #005EB6;
+    --btn: #3B628D;
 }
 html{
     height: 100%;
@@ -26,9 +26,10 @@ a{
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
+    overflow: hidden;
 }
 .login-info-container{
-    width: 52%;
+    width: 29vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -38,9 +39,9 @@ a{
     border-radius: 5px;
 }
 .image-container{
-    width: 70vw;
+    width:50vw;
+    height: 92vh;
     background-color: var(--fondo);
-    box-sizing: border-box;
 }
 .title{
     font-size: 2.25rem;
@@ -149,7 +150,7 @@ a{
 }
 @media screen and (max-width: 500px){
     .login-container{
-        height: 85vh;
+        height: 90%;
         width: 90%;
         justify-content: center;
     }
